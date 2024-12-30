@@ -1,6 +1,6 @@
 import Card from "@/components/Card";
+import Foter from "@/components/Foter";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/footer";
 import Image from "next/image";
 export default function Home() {
   return (
@@ -123,7 +123,8 @@ export default function Home() {
     </div>
   </div>
 </div>
-<Footer/>
+
+    <Foter />
     </>
   );
 }
